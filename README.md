@@ -89,7 +89,19 @@ Por fim: vamos rodar a aplicação e ver toda essa magia em vigor.
 
 Aqui é bem simples, o citado anteriormente comando ``ng`` nos permitirá interagir com a *Angular CLI*. [Aqui](https://www.devmedia.com.br/angular-cli-como-criar-e-executar-um-projeto-angular/38246) temos um ótimo artigo show que vai te guiar para os primeiros passos à utilizando caso tenha interesse pelo framework.
 
-Novamente, na pasta ``hackathon`` onde se encontra o projeto em angular, de forma enxugada vamos rodar os comandos ``ng serve --open`` ou, abreviando, ``ng s -o``, que vai abrir a aplicação na porta default (*http://localhost:4200*). O parâmetro ``--open`` ou abreviado `-o` faz com que além de abrir sua aplicação numa porta ele também abra essa porta no seu navegador padrão.
+Novamente, na pasta ``hackathon`` onde se encontra o projeto em angular, de forma enxugada vamos rodar os comandos:
+
+```
+ng serve --open
+```
+
+ou, abreviando:
+
+```
+ng s -o
+```
+
+Irá abrir sua aplicação na porta default (*http://localhost:4200*). O parâmetro ``--open`` ou abreviado `-o` faz com que além de abrir sua aplicação numa porta ele também abra essa porta no seu navegador padrão.
 
 ### Concluído!
 
