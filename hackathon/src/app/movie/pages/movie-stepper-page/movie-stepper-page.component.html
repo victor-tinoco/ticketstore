@@ -1,0 +1,25 @@
+<mat-horizontal-stepper linear #stepper>
+    <mat-step [stepControl]="firstStep.formStepOne">
+        <ng-template matStepLabel>Filme</ng-template>
+        <app-movie-sinopse #firstStep></app-movie-sinopse>
+        <div class="w-100 d-flex justify-content-end">
+            <button mat-raised-button color="primary" matStepperNext>Próximo</button>
+        </div>
+    </mat-step>
+    <mat-step [stepControl]="secondStep.formStepTwo">
+        <ng-template matStepLabel>Poltrona</ng-template>
+        <app-seatters #secondStep></app-seatters>
+        <div class="w-100 d-flex justify-content-center">
+            <button mat-raised-button color="primary" matStepperPrevious>Voltar</button>
+            <button mat-raised-button color="primary" matStepperNext>Próximo</button>
+        </div>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Finalização</ng-template>
+        <app-submit-new-ticket class="d-flex justify-content-center align-items-center m-5"></app-submit-new-ticket>
+        <div class="w-100 d-flex justify-content-center">
+            <button mat-raised-button color="primary" matStepperPrevious>Voltar</button>
+            <button (click)="onClick()" [disabled]="isDisabled"mat-raised-button color="primary">Finalizar</button>
+        </div>
+    </mat-step>
+</mat-horizontal-stepper>

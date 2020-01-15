@@ -1,0 +1,71 @@
+.ticket {
+    background-image: url(../../../../assets/img/ticket-card-back.png);
+    background-size: cover;
+    background-position: center;
+    font-family: filsonbold;
+    color: #414141;
+    width: 400px;
+    font-size: 12px;
+    height: 200px;
+    
+    > img {
+        width: 400px;
+    }
+
+    .details {
+        position: absolute;
+        
+        > div {
+            position: absolute;
+
+        }
+
+        > .id-L {
+            margin: 59px 0 0 29px;
+            font-size: 14px;
+        }
+        
+        > .id-R {
+            margin: 75px 0 0 350px;
+            color: #efefef;
+            transform: rotate(90deg);
+            font-size: 17px;
+        }
+
+        > .date-L {
+            margin: 132px 0 0 30px;
+            width: max-content;
+        }
+
+        > .date-R {
+            margin: 132px 0 0 152px;
+            width: max-content;
+        }
+
+        > .seat-L {
+            margin: 148px 0 0 30px;
+            width: max-content;
+        }
+
+        > .seat-R {
+            margin: 148px 0 0 152px;
+            width: max-content;
+        }
+
+        > .theater-L {
+            margin: 164px 0 0 30px;
+            width: max-content;
+        }
+
+        > .theater-R {
+            width: max-content;
+            margin: 148px 0 0 225px;
+        }
+
+        > .titlemovie-R {
+            width: max-content;
+            margin: 164px 0 0 152px;
+            text-transform: uppercase;
+            max-width: 210px;}
+    }
+}

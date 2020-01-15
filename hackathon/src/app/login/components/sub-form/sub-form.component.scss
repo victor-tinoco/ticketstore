@@ -1,0 +1,26 @@
+@import '../../../../colors.scss';
+@import '../../pages/login-page/login-page.component.scss';
+
+
+:host{
+    width: 100%; 
+ }
+
+#subForm {
+    display: flex;
+    flex-direction: column;
+    
+    > div {
+        display: flex;
+        flex-direction: column;
+
+        > button {
+            width: fit-content;
+        }
+    }
+
+    #btn {
+        display: flex;
+        align-items: flex-end;
+    }
+}

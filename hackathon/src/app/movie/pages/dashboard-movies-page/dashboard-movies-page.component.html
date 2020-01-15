@@ -1,0 +1,8 @@
+<div class="p-3">
+    <div class="category-container pb-3" *ngFor="let category of categories">
+        <h2 class="ml-2">{{ category }}</h2>
+        <div id="scroll">
+            <app-movie-card class="cartao" *ngFor="let movie of moviesByCategory[category]" [movie]="movie"></app-movie-card>
+        </div>
+    </div>
+</div>

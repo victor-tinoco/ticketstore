@@ -1,0 +1,40 @@
+<form id="subForm" [formGroup]="pageForm">
+
+
+    <a routerLink="/login"><i class="material-icons">arrow_back</i></a>
+
+    <div>
+        <input type="text" placeholder="Digite seu nome" name="name" formControlName="name">
+        <div [hidden]="pageForm.controls.name?.valid || pageForm.controls.name?.pristine" class="alert-error-field">
+            <span [hidden]="!pageForm.controls.name?.errors?.required">Campo Obrigatório*</span>
+        </div>
+    </div>
+
+    <div>
+        <input type="text" placeholder="Digite seu e-mail" name="email" formControlName="email">
+        <div [hidden]="pageForm.controls.email?.valid || pageForm.controls.email?.pristine" class="alert-error-field">
+            <span [hidden]="!pageForm.controls.email?.errors?.required">Campo Obrigatório*</span>
+            <span [hidden]="!pageForm.controls.email?.errors?.email">Deve ser um e-mail valido*</span>
+        </div>
+    </div>
+
+    <div>
+        <input type="password" placeholder="Digite sua senha secreta" formControlName="password" name="password">
+        <div [hidden]="pageForm.controls.password?.valid || pageForm.controls.password?.pristine" class="alert-error-field">
+            <span [hidden]="!pageForm.controls.password?.errors?.required">Campo Obrigatório*</span>
+        </div>
+    </div>
+
+    <div>
+        <input type="password" placeholder="Confirme a senha" formControlName="passwordAgain">
+        <div [hidden]="pageForm.controls.passwordAgain?.valid || pageForm.controls.passwordAgain?.pristine" class="alert-error-field">
+            <span [hidden]="!pageForm.controls.passwordAgain?.errors?.required">Campo Obrigatório*</span>
+            <span [hidden]="!pageForm.controls.passwordAgain?.errors?.mustMatch">As senhas devem ser iguais*</span>
+        </div>
+    </div>
+
+    <div id="btn">
+        <button type="button" [disabled]="pageForm.invalid || pageForm.pending" (click)="save()">Inscreva-se</button>
+    </div>
+
+</form>

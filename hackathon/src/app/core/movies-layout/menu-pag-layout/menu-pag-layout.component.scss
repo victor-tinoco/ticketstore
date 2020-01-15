@@ -1,0 +1,41 @@
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import '../../../../colors.scss';
+.hidden-menu {
+    width: 250px;
+}
+
+.sidenav {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    padding-right: 15px;
+}
+
+.mat-list-item {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #414141;
+    &:hover {
+        background-color: rgb(255, 221, 221);
+        border-radius: 0 45px 45px 0;
+    }
+    &:focus,
+    &:active {
+        background-color: rgb(231, 167, 167);
+        border-radius: 0 45px 45px 0;
+    }
+}
+
+#logoff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    
+    > i {
+        font-size: 30px;
+    }
+    
+    > img {
+        width: 150px;
+    }
+}

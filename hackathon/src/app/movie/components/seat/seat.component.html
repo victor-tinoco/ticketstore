@@ -1,0 +1,9 @@
+<span (click)="onClick()">
+    <ng-container *ngIf="!seat; else elseTemplate">
+        <i class="material-icons available">event_seat</i>
+    </ng-container>
+    <ng-template #elseTemplate>
+        <i *ngIf="seat == 1" class="material-icons selected">event_seat</i>
+        <i *ngIf="seat == 2" class="material-icons unavainable">event_seat</i>
+    </ng-template>    
+</span>

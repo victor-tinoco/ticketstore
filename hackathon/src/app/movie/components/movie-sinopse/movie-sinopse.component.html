@@ -1,0 +1,40 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <img *ngIf="this.movie" [src]="this.movie?.photo">
+
+            <form [formGroup]="formStepOne" class="d-flex mt-2 w-100 justify-content-between">
+                <mat-form-field class="mr-2">
+                    <input matInput [matDatepickerFilter]="myFilter" 
+                        [matDatepicker]="picker"
+                        (dateChange)="dateChange($event)"
+                         placeholder="Selecione uma data">
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+                <mat-form-field id="form-field">
+                    <mat-label>Escolha um horário</mat-label>
+                    <mat-select formControlName="selectSession" [(ngModel)]="session"
+                        (selectionChange)="selectedSession(session)" required>
+                        <mat-option *ngFor="let item of showSessions" [value]="item">
+                            {{item.time}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </form>
+
+        </div>
+        <div class="infos col-md-6 col-sm-12">
+            <h1 class="mb-1">{{this.movie?.title}}</h1>
+            <div class="d-flex mb-3">
+                <div>{{this.movie?.year}}</div>
+                <div class="ml-3">{{this.movie?.category}}</div>
+            </div>
+
+            <div class="mb-3">{{this.movie?.plot}}</div>
+
+            <div>Escritor(a): {{this.movie?.writer}}</div>
+            <div>Diretor(a): {{this.movie?.director}}</div>
+        </div>
+    </div>
+</div>

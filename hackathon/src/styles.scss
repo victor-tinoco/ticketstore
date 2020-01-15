@@ -1,0 +1,43 @@
+@import '~@angular/material/theming';
+// CSS padrão de cores
+@import "theme.scss";
+@include angular-material-theme($theme);
+@import 'colors.scss';
+@import 'node_modules/bootstrap/dist/css/bootstrap';
+@include mat-core();
+$hackathon-primary: mat-palette($palette-primary);
+$hackathon-accent: mat-palette($palette-accent);
+$hackathon-warn: mat-palette($mat-red);
+$hackathon-theme: mat-light-theme($hackathon-primary, $hackathon-accent, $hackathon-warn);
+@include angular-material-theme($hackathon-theme);
+@font-face {
+    font-family: filsonbold;
+    src: url(assets/fonts/FilsonBold.ttf);
+}
+
+@font-face {
+    font-family: filsonlight;
+    src: url(assets/fonts/FilsonLight.ttf);
+}
+
+html,
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: filsonlight;
+    background-color: $background-pattern-color;
+    outline: 0;
+    color: #414141;
+    font-size: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

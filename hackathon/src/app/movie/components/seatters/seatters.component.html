@@ -1,0 +1,12 @@
+<form [formGroup]="formStepTwo" class="d-flex justify-content-center align-items-center flex-column">
+    <div *ngIf="seatters">
+        <div *ngFor="let row of seatters; let i = index">
+            <span *ngFor="let seat of row; let j = index">
+                <app-seat [seat]="seat" [pos]="[i,j]" (pick)="eventChild($event)"></app-seat>
+            </span>
+        </div>
+    </div>
+    <mat-form-field> 
+        <input matInput placeholder="Selecione um assento" [(ngModel)]="position" formControlName="seatPosition" [readonly]="true" required>
+    </mat-form-field>
+</form>

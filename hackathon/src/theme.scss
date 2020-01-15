@@ -1,0 +1,7 @@
+@import "~@angular/material/theming";
+@include mat-core();
+$md-vermelho: ( 50: #f3e0e0, 100: #e0b3b3, 200: #cc8080, 300: #b84d4d, 400: #a82626, 500: #990000, 600: #910000, 700: #860000, 800: #7c0000, 900: #6b0000, A100: #ff9a9a, A200: #ff6767, A400: #ff3434, A700: #ff1a1a, contrast: ( 50: #000000, 100: #000000, 200: #000000, 300: #ffffff, 400: #ffffff, 500: #ffffff, 600: #ffffff, 700: #ffffff, 800: #ffffff, 900: #ffffff, A100: #000000, A200: #000000, A400: #ffffff, A700: #ffffff, ));
+$md-cinza: ( 50: #fafafa, 100: #f3f2f2, 200: #ebeaea, 300: #e2e1e1, 400: #dcdada, 500: #d6d4d4, 600: #d1cfcf, 700: #ccc9c9, 800: #c6c3c3, 900: #bcb9b9, A100: #ffffff, A200: #ffffff, A400: #ffffff, A700: #fffbfb, contrast: ( 50: #000000, 100: #000000, 200: #000000, 300: #000000, 400: #000000, 500: #000000, 600: #000000, 700: #000000, 800: #000000, 900: #000000, A100: #000000, A200: #000000, A400: #000000, A700: #000000, ));
+$palette-primary: mat-palette($md-vermelho);
+$palette-accent: mat-palette($md-cinza);
+$theme: mat-light-theme($palette-primary, $palette-accent);

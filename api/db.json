@@ -1,0 +1,449 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "photo": "https://observatoriodocinema.bol.uol.com.br/wp-content/uploads/2019/11/image-asset-8.jpeg",
+      "title": "Vingadores: Ultimato",
+      "category": "Ação",
+      "plot": "Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.",
+      "director": "Anthony Russo",
+      "writer": "Stephen McFeely",
+      "year": "2019"
+    },
+    {
+      "id": 2,
+      "photo": "https://observatoriodocinema.bol.uol.com.br/wp-content/uploads/2019/12/1077974.jpg",
+      "title": "Esqueceram de Mim",
+      "category": "Comédia",
+      "plot": "Quando o levado Kevin McCallister, de oito anos de idade, não se comporta na noite anterior de uma viagem da família para Paris, sua mãe o faz dormir no sótão, e ele deseja que sua família não estivesse em casa. Após os McCallisters irem para o aeroporto sem Kevin, que acorda e acredita que o seu desejo de não ter família se tornou realidade, ele percebe que dois vigaristas planejam roubar a residência. Sozinho, ele precisa proteger a casa da família destes atrapalhados ladrões.",
+      "director": "Chris Columbs",
+      "writer": "John Hughes",
+      "year": "1990"
+    },
+    {
+      "id": 3,
+      "photo": "https://i.ytimg.com/vi/DM_AGRNFxFA/maxresdefault.jpg",
+      "title": "O Chamado",
+      "category": "Terror",
+      "plot": "A jornalista Rachel Keller decide investigar a morte de sua sobrinha e descobre que quatro adolescentes morreram misteriosamente sete dias depois de assistir a um vídeo com imagens assustadoras. Agora ela tenta solucionar o mistério e impedir que a profecia se realize, já que ela e seu filho também assistiram ao vídeo.",
+      "director": "Gore Verbinski",
+      "writer": "Koji Suzuki",
+      "year": "2003"
+    },
+    {
+      "id": 4,
+      "photo": "https://www.minhaseriefavorita.com/wp-content/uploads/2018/10/curiosidades-mulher-maravilha-1280x720.jpg",
+      "title": "Mulher Maravilha ",
+      "category": "Ação",
+      "plot": "Filha da rainha Hipólita, a guerreira Diana vive na ilha de Themyscira com outras amazonas. Quando o piloto Steve Travor surge no local, ela descobre que há uma guerra em curso. Certa de que deve ajudar a acabar com o conflito, Diana se une ao soldado em uma viagem que revela seus reais poderes.",
+      "director": "Patty Jenkins",
+      "writer": "Lucy Davis",
+      "year": "2017"
+    },
+    {
+      "id": 5,
+      "photo": "https://cdn.cinepop.com.br/2016/05/rogueone_2-1280x720.jpg",
+      "title": "Rogue one",
+      "category": "Ação",
+      "plot": "Em busca de uma nova esperança para a galáxia, a Aliança Rebelde enfrenta uma arriscada missão: roubar os planos que revelam uma falha na construção da Estrela da Morte. Para isso, eles contam com a ajuda de Jyn Erso (Felicity Jones), filha do criador da arma mais poderosa do império. Indicado a dois Oscars, incluindo o de Melhores Efeitos Visuais.",
+      "director": "Gareth Edwards",
+      "writer": "John Knoll",
+      "year": "2016"
+    },
+    {
+      "id": 6,
+      "photo": "https://sagresonline.com.br/images/20180729-missao.jpg",
+      "title": "Missão: Impossível - Efeito Fallout",
+      "category": "Ação",
+      "plot": "Após falhar em uma missão por ter salvo seus colegas, Ethan Hunt deve recuperar um plutônio que caiu em mãos erradas. Para essa tarefa, ele precisa lidar com o agente August Walker, com quem cria certa tensão. Ao lado também de sua equipe, eles tentarão impedir que criminosos destruam a civilização.",
+      "director": "Christopher McQuarrie",
+      "writer": "John Hughes",
+      "year": "2018"
+    },
+    {
+      "id": 7,
+      "photo": "https://i.ytimg.com/vi/1dHP8Ao8J0o/maxresdefault.jpg",
+      "title": "Motoqueiro Fantasma",
+      "category": "Ação",
+      "plot": "Jhonny Blaze é um famoso piloto de motocicleta, que faz um acordo com uma entidade sobrenatural chamada Mefisto para proteger aqueles que ama. Jhonny só não esperava pagar um preço altíssimo durante todas as noites: se tornar o poderoso Motoqueiro Fantasma.",
+      "director": "Mark Steven Johnson",
+      "writer": "Sam Elliot",
+      "year": "2007"
+    },
+    {
+      "id": 8,
+      "photo": "https://i.ytimg.com/vi/YDKXXbdaF5o/maxresdefault.jpg",
+      "title": "Pai Em Dose Dupla 2",
+      "category": "Comédia",
+      "plot": "Quando o levado Kevin McCallister, de oito anos de idade, não se comporta na noite anterior de uma viagem da família para Paris, sua mãe o faz dormir no sótão, e ele deseja que sua família não estivesse em casa. Após os McCallisters irem para o aeroporto sem Kevin, que acorda e acredita que o seu desejo de não ter família se tornou realidade, ele percebe que dois vigaristas planejam roubar a residência. Sozinho, ele precisa proteger a casa da família destes atrapalhados ladrões.",
+      "director": "Chris Columbs",
+      "writer": "John Hughes",
+      "year": "1990"
+    },
+    {
+      "id": 9,
+      "photo": "https://image.tmdb.org/t/p/w1280/piRIyhNNSIbAus9oYBRdiOKgnZ2.jpg",
+      "title": "A Casa Caiu: Um Cassino na Vizinhança",
+      "category": "Comédia",
+      "plot": "Quando o levado Kevin McCallister, de oito anos de idade, não se comporta na noite anterior de uma viagem da família para Paris, sua mãe o faz dormir no sótão, e ele deseja que sua família não estivesse em casa. Após os McCallisters irem para o aeroporto sem Kevin, que acorda e acredita que o seu desejo de não ter família se tornou realidade, ele percebe que dois vigaristas planejam roubar a residência. Sozinho, ele precisa proteger a casa da família destes atrapalhados ladrões.",
+      "director": "Chris Columbs",
+      "writer": "John Hughes",
+      "year": "1990"
+    },
+    {
+      "id": 10,
+      "photo": "https://i1.wp.com/noticiasetecnologia.com/wp-content/uploads/2019/12/Action-Point.jpg?fit=667%2C375&ssl=1&resize=1280%2C720",
+      "title": "Action Point",
+      "category": "Comédia",
+      "plot": "Quando o levado Kevin McCallister, de oito anos de idade, não se comporta na noite anterior de uma viagem da família para Paris, sua mãe o faz dormir no sótão, e ele deseja que sua família não estivesse em casa. Após os McCallisters irem para o aeroporto sem Kevin, que acorda e acredita que o seu desejo de não ter família se tornou realidade, ele percebe que dois vigaristas planejam roubar a residência. Sozinho, ele precisa proteger a casa da família destes atrapalhados ladrões.",
+      "director": "Chris Columbs",
+      "writer": "John Hughes",
+      "year": "1990"
+    },
+    {
+      "id": 11,
+      "photo": "https://i.ytimg.com/vi/YDKXXbdaF5o/maxresdefault.jpg",
+      "title": "Pai Em Dose Dupla 2",
+      "category": "Comédia",
+      "plot": "Quando o levado Kevin McCallister, de oito anos de idade, não se comporta na noite anterior de uma viagem da família para Paris, sua mãe o faz dormir no sótão, e ele deseja que sua família não estivesse em casa. Após os McCallisters irem para o aeroporto sem Kevin, que acorda e acredita que o seu desejo de não ter família se tornou realidade, ele percebe que dois vigaristas planejam roubar a residência. Sozinho, ele precisa proteger a casa da família destes atrapalhados ladrões.",
+      "director": "Chris Columbs",
+      "writer": "John Hughes",
+      "year": "1990"
+    },
+    {
+      "id": 12,
+      "photo": "http://br.web.img3.acsta.net/r_1280_720/pictures/19/02/05/15/40/2610441.jpg",
+      "title": "A Morte Te Dá Parabéns",
+      "category": "Terror",
+      "plot": "Quando o levado Kevin McCallister, de oito anos de idade, não se comporta na noite anterior de uma viagem da família para Paris, sua mãe o faz dormir no sótão, e ele deseja que sua família não estivesse em casa. Após os McCallisters irem para o aeroporto sem Kevin, que acorda e acredita que o seu desejo de não ter família se tornou realidade, ele percebe que dois vigaristas planejam roubar a residência. Sozinho, ele precisa proteger a casa da família destes atrapalhados ladrões.",
+      "director": "Chris Columbs",
+      "writer": "John Hughes",
+      "year": "1990"
+    },
+    {
+      "id": 13,
+      "photo": "https://i.ytimg.com/vi/5EmHoWbyM40/maxresdefault.jpg",
+      "title": "Annabelle 2: A Criação do Mal",
+      "category": "Terror",
+      "plot": "Quando o levado Kevin McCallister, de oito anos de idade, não se comporta na noite anterior de uma viagem da família para Paris, sua mãe o faz dormir no sótão, e ele deseja que sua família não estivesse em casa. Após os McCallisters irem para o aeroporto sem Kevin, que acorda e acredita que o seu desejo de não ter família se tornou realidade, ele percebe que dois vigaristas planejam roubar a residência. Sozinho, ele precisa proteger a casa da família destes atrapalhados ladrões.",
+      "director": "Chris Columbs",
+      "writer": "John Hughes",
+      "year": "1990"
+    },
+    {
+      "id": 14,
+      "photo": "https://observatoriodocinema.bol.uol.com.br/wp-content/uploads/2019/08/cropped-It-A-Coisa-Pennywise-Balao.jpg",
+      "title": "It: A Coisa",
+      "category": "Terror",
+      "plot": "Quando o levado Kevin McCallister, de oito anos de idade, não se comporta na noite anterior de uma viagem da família para Paris, sua mãe o faz dormir no sótão, e ele deseja que sua família não estivesse em casa. Após os McCallisters irem para o aeroporto sem Kevin, que acorda e acredita que o seu desejo de não ter família se tornou realidade, ele percebe que dois vigaristas planejam roubar a residência. Sozinho, ele precisa proteger a casa da família destes atrapalhados ladrões.",
+      "director": "Chris Columbs",
+      "writer": "John Hughes",
+      "year": "1990"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Victor Martins Tinoco",
+      "email": "victormartinstinoco@live.com",
+      "password": "1234",
+      "admin": true
+    },
+    {
+      "id": 2,
+      "name": "Gabriel Moretti Caliman",
+      "email": "gabriel.moretti.caliman@gmail.com",
+      "password": "1234",
+      "admin": true
+    },
+    {
+      "id": 3,
+      "name": "Jorge Luís Neves Aranha",
+      "email": "joranha@gmail.com",
+      "password": "1234",
+      "admin": false
+    },
+    {
+      "name": "ronaldo",
+      "id": 6,
+      "email": "ronald",
+      "password": "1234",
+      "passwordAgain": "1234"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "seatters": {
+        "rowNum": 10,
+        "colNum": 10
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "roomId": 1,
+      "date": "01/04/2020",
+      "time": "14:00"
+    },
+    {
+      "id": 2,
+      "movieId": 1,
+      "roomId": 1,
+      "date": "01/04/2020",
+      "time": "15:00"
+    },
+    {
+      "id": 3,
+      "movieId": 1,
+      "roomId": 1,
+      "date": "01/04/2020",
+      "time": "16:00"
+    },
+    {
+      "id": 4,
+      "movieId": 1,
+      "roomId": 1,
+      "date": "01/04/2020",
+      "time": "17:00"
+    },
+    {
+      "id": 5,
+      "movieId": 1,
+      "roomId": 1,
+      "date": "01/04/2020",
+      "time": "18:00"
+    },
+    {
+      "id": 6,
+      "movieId": 1,
+      "roomId": 1,
+      "date": "01/04/2020",
+      "time": "19:00"
+    },
+    {
+      "id": 7,
+      "movieId": 1,
+      "roomId": 1,
+      "date": "01/05/2020",
+      "time": "19:00"
+    },
+    {
+      "id": 8,
+      "movieId": 1,
+      "roomId": 1,
+      "date": "01/05/2020",
+      "time": "20:00"
+    },
+    {
+      "id": 9,
+      "movieId": 1,
+      "roomId": 1,
+      "date": "01/10/2020",
+      "time": "19:00"
+    },
+    {
+      "id": 10,
+      "movieId": 1,
+      "roomId": 1,
+      "date": "01/10/2020",
+      "time": "20:00"
+    },
+    {
+      "id": 11,
+      "movieId": 2,
+      "roomId": 1,
+      "date": "01/10/2020",
+      "time": "20:00"
+    },
+    {
+      "id": 12,
+      "movieId": 2,
+      "roomId": 1,
+      "date": "01/20/2020",
+      "time": "20:00"
+    },
+    {
+      "id": 13,
+      "movieId": 2,
+      "roomId": 1,
+      "date": "01/30/2020",
+      "time": "20:00"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "userId": 3,
+      "sessionId": 1,
+      "seat": {
+        "row": 2,
+        "col": 3
+      }
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "sessionId": 1,
+      "seat": {
+        "row": 2,
+        "col": 4
+      }
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "sessionId": 1,
+      "seat": {
+        "row": 2,
+        "col": 5
+      }
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "sessionId": 1,
+      "seat": {
+        "row": 6,
+        "col": 0
+      }
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "sessionId": 1,
+      "seat": {
+        "row": 8,
+        "col": 2
+      }
+    },
+    {
+      "id": 6,
+      "userId": 3,
+      "sessionId": 1,
+      "seat": {
+        "row": 3,
+        "col": 5
+      }
+    },
+    {
+      "id": 7,
+      "userId": 3,
+      "sessionId": 1,
+      "seat": {
+        "row": 0,
+        "col": 6
+      }
+    },
+    {
+      "id": 8,
+      "userId": 3,
+      "sessionId": 1,
+      "seat": {
+        "row": 0,
+        "col": 4
+      }
+    },
+    {
+      "id": 9,
+      "userId": 3,
+      "sessionId": 1,
+      "seat": {
+        "row": 7,
+        "col": 6
+      }
+    },
+    {
+      "id": 10,
+      "userId": 3,
+      "sessionId": 1,
+      "seat": {
+        "row": 6,
+        "col": 5
+      }
+    },
+    {
+      "id": 11,
+      "userId": 3,
+      "sessionId": 1,
+      "seat": {
+        "row": 4,
+        "col": 5
+      }
+    },
+    {
+      "id": 12,
+      "userId": 3,
+      "sessionId": 1,
+      "seat": {
+        "row": 0,
+        "col": 5
+      }
+    },
+    {
+      "id": 13,
+      "userId": 3,
+      "sessionId": 2,
+      "seat": {
+        "row": 0,
+        "col": 0
+      }
+    },
+    {
+      "id": 14,
+      "userId": 3,
+      "sessionId": 2,
+      "seat": {
+        "row": 0,
+        "col": 1
+      }
+    },
+    {
+      "id": 15,
+      "userId": 3,
+      "sessionId": 2,
+      "seat": {
+        "row": 8,
+        "col": 4
+      }
+    },
+    {
+      "id": 16,
+      "userId": 3,
+      "sessionId": 5,
+      "seat": {
+        "row": 5,
+        "col": 2
+      }
+    },
+    {
+      "id": 17,
+      "userId": 2,
+      "sessionId": 4,
+      "seat": {
+        "row": 5,
+        "col": 5
+      }
+    },
+    {
+      "id": 18,
+      "userId": 2,
+      "sessionId": 3,
+      "seat": {
+        "row": 3,
+        "col": 6
+      }
+    },
+    {
+      "id": 19,
+      "userId": 3,
+      "sessionId": 9,
+      "seat": {
+        "row": 2,
+        "col": 4
+      }
+    }
+  ]
+}

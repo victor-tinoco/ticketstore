@@ -1,0 +1,13 @@
+<div class="ticket">
+    <div class="details">
+        <div class="id-L">{{ this.ticket?.id }}</div>
+        <div class="id-R">{{ this.ticket?.id }}</div>
+        <div class="date-L">{{ this.date }} {{ this.session?.time }}</div>
+        <div class="date-R">{{ this.session?.date }} {{ this.session?.time }}</div>
+        <div class="seat-L">SEAT: {{ this.ticket?.seat.row}} / {{ this.ticket?.seat.col }}</div> 
+        <div class="seat-R">SEAT: {{ this.ticket?.seat.row}} / {{ this.ticket?.seat.col }}</div> 
+        <div class="theater-L">THEATER: {{ this.session?.roomId }}</div> 
+        <div class="theater-R">THEATER: {{ this.session?.roomId }}</div> 
+        <div class="titlemovie-R text-truncate">MOVIE: {{ this.movie?.title }}</div> 
+    </div>
+</div>

@@ -1,0 +1,9 @@
+@import '../../../../colors.scss';
+
+button{
+    margin: 0px 2px;
+}
+
+.mat-stepper-horizontal {
+    background-color: $background-pattern-color;
+}

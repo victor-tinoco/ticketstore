@@ -1,0 +1,80 @@
+@import '../../../../colors.scss';
+
+div {
+    background-color: $background-pattern-color;
+    padding: 20px;
+}
+
+.ticket {
+
+    &:not(:first-of-type){
+        margin-top: -120px;
+        z-index: 5;
+        animation: slide-bottom-reverse;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+
+        &:hover {
+            cursor: pointer;
+            animation: slide-bottom;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+        }
+    }
+
+    &:first-of-type {
+        animation-name: slide-bottom-first-reverse;
+        animation-fill-mode: forwards;
+        animation-duration: 1s;
+    }
+
+    &:first-of-type:hover {
+        cursor: pointer;
+        animation-name: slide-bottom-first;
+        animation-fill-mode: forwards;
+        animation-duration: 2s;
+    }
+}
+
+@keyframes slide-bottom {
+    from {
+        top: -120px;
+        margin-bottom: 0;
+    }
+    to {
+        margin-top: -130px;
+        margin-bottom: 125px;
+    }
+}
+
+@keyframes slide-bottom-reverse {
+    from {
+        margin-top: -130px;
+        margin-bottom: 125px;
+    }
+    to {
+        top: -120px;
+        margin-bottom: 0;
+    }
+}
+
+@keyframes slide-bottom-first {
+    from {
+        top: 0px;
+        margin-bottom: 0;
+    }
+    to {
+        margin-top: -10px;
+        margin-bottom: 125px;
+    }
+}
+@keyframes slide-bottom-first-reverse {
+    from {
+        margin-top: -10px;
+        margin-bottom: 125px;
+    }
+    to {
+        top: 0px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import '../../../../colors.scss';
+
+i {
+    font-size: 30px;
+
+    &:not(.unavainable) {
+        cursor: pointer;
+    }
+}
+
+.available {
+    color: rgb(45, 167, 14);
+    
+    &:hover {
+        color: rgb(34, 126, 11);
+    }
+}
+
+.unavainable {
+    color: $red-pattern;
+    
+    &:hover {
+        cursor: default;
+    }
+}
+
+.selected {
+    color: #2c2c2c;
+}

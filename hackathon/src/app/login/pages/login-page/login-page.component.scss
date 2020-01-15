@@ -1,0 +1,74 @@
+// CSS padrão de cores
+@import '../../../../colors.scss';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+@media only screen and (max-width: 576px) {
+    .right-container{
+        display: none;
+    }
+}
+
+.logo {
+    width: 250px;
+}
+
+.right-container {
+    background: url(../../../../assets/img/background-login.png);
+    background-size: cover;
+    background-position: center;
+
+
+    h1 {
+        font-family: filsonbold;
+        color: white;
+        font-size: 50px;
+        margin: 0;
+    }
+    
+    h5 {
+        color: white;
+    }
+}
+
+input {
+    background-color: white;
+    border: 1px solid $border-pattern-color;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 100%
+}
+
+.welcome-message {
+    margin-top: 27vh;
+}
+
+.alert-error-field {
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+a {
+    font-family: filsonbold;
+    color: $red-pattern;
+}
+
+button{
+    background-color: #414141;
+    color: white;
+    font-size: 18px;
+    border-radius: 40px;
+    padding: 6px 15px;
+    border: 0;
+    margin-top: 10px;
+
+    &:disabled{
+        background-color: #919191;
+    }
+
+    &:hover:not(:disabled){
+        cursor: pointer;
+        background-color: #333333;
+    }
+}
